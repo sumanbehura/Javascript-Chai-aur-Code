@@ -45,3 +45,28 @@ console.log(typeof heros);
 // type of array is  object
 console.log(typeof myFunction);
 // type of function is object/ function object
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "sumanbehura666@gmail.com",
+    upi:"suman@ybl"
+}
+ let usreTwo = userOne
+
+ usreTwo.email = "behurasuman856@gmail.com"
+
+
+ console.log(userOne.email)
+ console.log(usreTwo.email)
+
