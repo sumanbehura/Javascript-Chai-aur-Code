@@ -32,7 +32,7 @@ if(!username){
 console.log("PLease enter a username");
 return
 }
-return ${username} just logged in
+return `${username} just logged in`
 }
 
 // console.log(loginUserMessage("hitesh"))
