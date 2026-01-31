@@ -1,5 +1,3 @@
-
-
 // const tinderUser = new Object() // singleton object
 
 const tinderUser = {} // non-singleton object
@@ -57,6 +55,9 @@ email: "h@gmail.com"
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 // console.log(tinderUser.hasOwnProperty('isLoggedIns'))
+
+
+// ++++++++++Objects destructuring and JSON API++++++++++++
 
 const course = {
 coursename: "js in hindi",
